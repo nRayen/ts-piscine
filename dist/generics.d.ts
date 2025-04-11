@@ -1,4 +1,6 @@
-declare function premierElement<tableau>(tableau: any[]): any;
+declare function premierElement<tableau extends {
+    length: number;
+}>(tableau: any[]): any;
 declare const tab1: number[];
 declare const tab2: string[];
 declare const tab3: ({
@@ -17,3 +19,4 @@ declare const tab3: ({
     nom?: undefined;
     age?: undefined;
 })[];
+declare const tabvide: any[];
