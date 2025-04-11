@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-  "outDir": "dist",
-  "target": "ES6",
-  "noEmitOnError": true,
-  "strict": true,
-  "declaration": true
+    "outDir": "dist",
+    "target": "ES6",
+    "noEmitOnError": true,
+    "strict": true,
+    "declaration": true,
+    "module": "ES2015"
   },
   "files": ["src/app.ts"],
-  "include": ["src"]
- }
+  "include": ["src"],
+  "type" : "module"
+}

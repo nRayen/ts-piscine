@@ -1,9 +1,9 @@
-interface iAnimal {
+export interface iAnimal {
     nom: string,
     seDeplacer(): void
 }
 
-class Animal implements iAnimal {
+export class Animal implements iAnimal {
     nom: string
 
     constructor (nom: string) {

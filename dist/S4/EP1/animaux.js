@@ -1,5 +1,4 @@
-"use strict";
-class Animal {
+export class Animal {
     constructor(nom) {
         this.seDeplacer = () => {
             console.log(`L'animal ${this.nom} se déplace.`);
