@@ -10,10 +10,6 @@ interface Personne {
     adresse?: Adresse
 };
 
-const afficherPersonne = (p: Personne) => {
-    console.log("Bonjour " + p.nom + ". Tu as " + p.age + " ans.")
-}
-
 const afficherPersonneAvancee = (p: Personne) => {
     if (p.adresse) {
         console.log(`Bonjour, je m'appelle ${p.nom} (ID: ${p.id}), j'ai ${p.age} ans et j'habite au ${p.adresse.rue}, ${p.adresse.ville}.`)
@@ -22,13 +18,13 @@ const afficherPersonneAvancee = (p: Personne) => {
     }
 }
 
-const personne1 : Personne = {
+const personne2 : Personne = {
     id: 1,
     nom: "Alice",
     age: 25
 }
 
-const personne2 : Personne = {
+const personne3 : Personne = {
     id: 2,
     nom: "Jean",
     age: 34,
@@ -38,7 +34,7 @@ const personne2 : Personne = {
     }
 }
 
-const personne3 : Personne = {
+const personne4 : Personne = {
     id: 3,
     nom: "Marie",
     age: 18
@@ -46,3 +42,4 @@ const personne3 : Personne = {
 
 afficherPersonneAvancee(personne2)
 afficherPersonneAvancee(personne3)
+afficherPersonneAvancee(personne4)
