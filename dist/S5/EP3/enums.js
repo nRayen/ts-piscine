@@ -1,4 +1,3 @@
-"use strict";
 var Direction2;
 (function (Direction2) {
     Direction2[Direction2["Nord"] = 0] = "Nord";
@@ -31,3 +30,4 @@ point = seDeplacer(point, Direction2.Est);
 point = seDeplacer(point, Direction2.Est);
 point = seDeplacer(point, Direction2.Nord);
 console.log(`Le point arrive aux coordonnées : [${point}]`);
+export {};

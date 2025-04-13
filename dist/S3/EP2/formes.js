@@ -1,4 +1,3 @@
-"use strict";
 class Rectangle {
     constructor(largeur, hauteur) {
         this.largeur = largeur;
@@ -26,3 +25,4 @@ function afficherSurface(forme) {
 }
 afficherSurface(new Rectangle(10, 23));
 afficherSurface(new Cercle(15));
+export {};

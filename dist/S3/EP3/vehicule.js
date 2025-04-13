@@ -1,4 +1,3 @@
-"use strict";
 const isVehicule = (obj) => {
     if ("annee" in obj && "marque" in obj) {
         return true;
@@ -28,3 +27,4 @@ afficherVehicule(personne);
 afficherVehicule(vehiculeInvalide);
 afficherVehicule(rectangle);
 afficherVehicule(vehiculeValide);
+export {};

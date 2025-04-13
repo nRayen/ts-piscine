@@ -1,4 +1,3 @@
-"use strict";
 function premierElementNotEmpty(tableau) {
     if (tableau.length < 1)
         return undefined;
@@ -11,3 +10,4 @@ console.log(premierElementNotEmpty(tab4));
 console.log(premierElementNotEmpty(tab5));
 console.log(premierElementNotEmpty(tab6));
 console.log(premierElementNotEmpty([]));
+export {};

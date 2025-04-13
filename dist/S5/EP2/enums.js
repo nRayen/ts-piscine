@@ -1,4 +1,3 @@
-"use strict";
 var Direction;
 (function (Direction) {
     Direction[Direction["Nord"] = 0] = "Nord";
@@ -24,3 +23,4 @@ console.log("Les coordonnées au Nord sont : " + vecteurDirection(Direction.Nord
 console.log("Les coordonnées à Sud sont : " + vecteurDirection(Direction.Sud));
 console.log("Les coordonnées à l'Est sont : " + vecteurDirection(Direction.Est));
 console.log("Les coordonnées à l'Ouest sont : " + vecteurDirection(Direction.Ouest));
+export {};

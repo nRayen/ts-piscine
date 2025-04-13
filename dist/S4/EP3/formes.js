@@ -1,4 +1,3 @@
-"use strict";
 class Forme {
 }
 class Rectangle2 extends Forme {
@@ -22,3 +21,4 @@ class Cercle2 extends Forme {
 }
 console.log(new Cercle2(12).calculerSurface());
 console.log(new Rectangle2(12, 34).calculerSurface());
+export {};

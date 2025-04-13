@@ -1,4 +1,3 @@
-"use strict";
 function getProperty(obj, key) {
     return obj[key];
 }
@@ -9,3 +8,4 @@ const maVoiture = {
 };
 console.log(getProperty(maVoiture, "marque"));
 console.log(getProperty(maVoiture, "annee"));
+export {};

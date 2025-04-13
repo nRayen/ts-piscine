@@ -5,9 +5,10 @@
     "noEmitOnError": true,
     "strict": true,
     "declaration": true,
-    "module": "ES2015"
+    "module": "NodeNext",
+    "typeRoots": ["src/@types", "node_modules/@types"]
   },
-  "files": ["src/app.ts"],
+  "files": ["src/index.ts"],
   "include": ["src"],
   "type" : "module"
 }

@@ -1,4 +1,3 @@
-"use strict";
 ;
 const afficherPersonneAvancee = (p) => {
     if (p.adresse) {
@@ -30,3 +29,4 @@ const personne4 = {
 afficherPersonneAvancee(personne2);
 afficherPersonneAvancee(personne3);
 afficherPersonneAvancee(personne4);
+export {};

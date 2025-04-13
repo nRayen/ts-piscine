@@ -1,4 +1,3 @@
-"use strict";
 const afficherInfoProfessionnelle = (p) => {
     "poste" in p ? (console.log(`Employé: ${p.nom} travaille comme ${p.poste}.`)) : (console.log(`Employé: ${p.nom} est associé à l'entreprise ${p.entreprise}.`));
 };
@@ -12,3 +11,4 @@ const client1 = {
 };
 afficherInfoProfessionnelle(employe1);
 afficherInfoProfessionnelle(client1);
+export {};
