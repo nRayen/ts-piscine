@@ -1,5 +1,5 @@
 function alerter(message) {
-    console.log("Alerte:", message);
+    console.error("Alerte:", message);
 }
 function logger(message) {
     console.log("Log:", message);
